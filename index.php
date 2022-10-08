@@ -10,6 +10,7 @@
    
 <?php
 echo "php is working";
+echo "php is working good";
 ?>
 
 </body>
