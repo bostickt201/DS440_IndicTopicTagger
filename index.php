@@ -19,7 +19,7 @@ mysqli_real_connect($conn, 'teambuilder.mysql.database.azure.com', 'Team10admin'
 if (mysqli_connect_errno($conn)) {
  die('Failed to connect to MySQL: '.mysqli_connect_error());
  echo "mysql is not working";
-}else{
+} else {
  echo "mysql is working good";
 }
 ?>
