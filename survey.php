@@ -1,11 +1,11 @@
  <!DOCTYPE html>
 <html>
 <head>
- $('input[type=checkbox]').on('change', function (e) {
-    if ($('input[type=checkbox]:checked').length > 3) {
-        $(this).prop('checked', false);
-        alert("allowed only 3");
-    }
+var limit = 3;
+$('input.single-checkbox').on('change', function(evt) {
+   if($(this).siblings(':checked').length >= limit) {
+       this.checked = false;
+   }
 });
 </head>
 <body>
@@ -25,7 +25,7 @@ What is your class year?:<br>
   <input type="radio" name="class" value="5year">Fifth-Year + (Super Senior)<br>
 Technical Skills:<br>  <textarea name="skills" rows="5" cols="40"></textarea><br>
 What programming languages are you most familiar with? You may select up to a maximum of three:<br>
-  <input class="single-checkbox"type="checkbox" name="language" value="c">C/C++<br>
+  <input class="single-checkbox" type="checkbox" name="language" value="c">C/C++<br>
   <input class="single-checkbox" type="checkbox" name="language" value="c#">C#<br>
   <input class="single-checkbox" type="checkbox" name="language" value="html">HTML/CSS<br>
   <input class="single-checkbox" type="checkbox" name="language" value="java">Java<br>
@@ -38,6 +38,13 @@ What programming languages are you most familiar with? You may select up to a ma
   <input class="single-checkbox" type="checkbox" name="language" value="swift">Swift/Objective-C<br>
 <input type="submit">
 </form>
+ 
+var limit = 3;
+$('input.single-checkbox').on('change', function(evt) {
+   if($(this).siblings(':checked').length >= limit) {
+       this.checked = false;
+   }
+});
 
 
 </body>
