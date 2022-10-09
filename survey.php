@@ -1,6 +1,7 @@
  <!DOCTYPE html>
 <html>
 <head>
+ <script src="jquery-3.6.0.min.js"></script>
  <script>
 var limit = 3;
 $('input.single-checkbox').on('change', function(evt) {
