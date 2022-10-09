@@ -14,8 +14,8 @@ What is your class year?:
   <input type="radio" name="class" value="2year">Second-Year (Sophomore)
   <input type="radio" name="class" value="3year">Third-Year (Junior)
   <input type="radio" name="class" value="4year">Fourth-Year (Senior)
-  <input type="radio" name="class" value="5year">Fifth-Year + (Super Senior)
-Technical Skills:  <textarea name="skills" rows="5" cols="40"></textarea>
+  <input type="radio" name="class" value="5year">Fifth-Year + (Super Senior)<br>
+Technical Skills:  <textarea name="skills" rows="5" cols="40"></textarea><br>
 <input type="submit">
 </form>
 
