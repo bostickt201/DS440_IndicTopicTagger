@@ -17,14 +17,14 @@
 What is your first name?: <input type="text" name="fname"><br>
 What is your last name?: <input type="text" name="lname"><br>
 What is your student email?: <input type="text" name="email"><br>
-What is your class year?: 
+What is your class year?:<br>
   <input type="radio" name="class" value="1year">First-Year (Freshman)
   <input type="radio" name="class" value="2year">Second-Year (Sophomore)
   <input type="radio" name="class" value="3year">Third-Year (Junior)
   <input type="radio" name="class" value="4year">Fourth-Year (Senior)
   <input type="radio" name="class" value="5year">Fifth-Year + (Super Senior)<br>
 Technical Skills:  <textarea name="skills" rows="5" cols="40"></textarea><br>
-What programming languages are you most familiar with? You may select up to a maximum of three:
+What programming languages are you most familiar with? You may select up to a maximum of three:<br>
   <input class="single-checkbox"type="checkbox" name="language" value="c">C/C++<br>
   <input class="single-checkbox" type="checkbox" name="language" value="c#">C#<br>
   <input class="single-checkbox" type="checkbox" name="language" value="html">HTML/CSS<br>
