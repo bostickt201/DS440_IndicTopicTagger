@@ -23,7 +23,7 @@ What is your class year?:<br>
   <input type="radio" name="class" value="3year">Third-Year (Junior)
   <input type="radio" name="class" value="4year">Fourth-Year (Senior)
   <input type="radio" name="class" value="5year">Fifth-Year + (Super Senior)<br>
-Technical Skills:  <textarea name="skills" rows="5" cols="40"></textarea><br>
+Technical Skills:<br>  <textarea name="skills" rows="5" cols="40"></textarea><br>
 What programming languages are you most familiar with? You may select up to a maximum of three:<br>
   <input class="single-checkbox"type="checkbox" name="language" value="c">C/C++<br>
   <input class="single-checkbox" type="checkbox" name="language" value="c#">C#<br>
