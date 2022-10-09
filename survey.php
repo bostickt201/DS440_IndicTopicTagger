@@ -1,12 +1,15 @@
  <!DOCTYPE html>
 <html>
 <head>
+ <script>
 var limit = 3;
 $('input.single-checkbox').on('change', function(evt) {
    if($(this).siblings(':checked').length >= limit) {
        this.checked = false;
    }
 });
+  </script>
+
 </head>
 <body>
 <h1>SURVEY PAGE</h1>
@@ -39,12 +42,15 @@ What programming languages are you most familiar with? You may select up to a ma
 <input type="submit">
 </form>
  
+ <script>
+
 var limit = 3;
 $('input.single-checkbox').on('change', function(evt) {
    if($(this).siblings(':checked').length >= limit) {
        this.checked = false;
    }
 });
+</script>
 
 
 </body>
