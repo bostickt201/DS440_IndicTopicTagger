@@ -18,9 +18,8 @@
 </p><br>
 <br>
  
-<br>Basic Info and Contact
+<br><h1>Basic Info and Contact</h1>
 <p><b>Why are we asking for contact information?</b>
-
 Your contact data is meant to simulate real user data. We will never share or use this data outside of the classroom.</p><br>
 <form action="submit.php" method="post">
 What is your first name?: <input type="text" name="fname"><br>
@@ -32,7 +31,7 @@ What is your class year?:<br>
   <input type="radio" name="class" value="3year">Third-Year (Junior)
   <input type="radio" name="class" value="4year">Fourth-Year (Senior)
   <input type="radio" name="class" value="5year">Fifth-Year + (Super Senior)<br>
-<br>Technical Skills<br>
+<br><h1>Technical Skills</h1><br>
 What programming languages are you most familiar with? You may select up to a maximum of three:<br>
   <input class="limited-checkbox" type="checkbox" name="language" value="c">C/C++<br>
   <input class="limited-checkbox" type="checkbox" name="language" value="c#">C#<br>
@@ -96,7 +95,46 @@ Which of the following cloud services, if any, do you have experience with?:<br>
   <input type="radio" name="visualize" value="google">Google Cloud Platform
   <input type="radio" name="visualize" value="ocean">Digital Ocean
   <input type="radio" name="visualize" value="">Other <input type="text" name="other_os" /><br>
-<br>Interpersonal Skills<br>
+<br><h1>Interpersonal Skills</h1><br>
+Picture yourself in a group or team-based setting. What "soft" or interpersonal skills would you bring on to your team? Please select at least one of the options listed below. (You may select up to a maximum of three.):<br>
+  <input class="limited-checkbox" type="checkbox" name="interpersonal" value="communication">Communication<br>
+  <input class="limited-checkbox" type="checkbox" name="interpersonal" value="cr">Conflict resolution<br>
+  <input class="limited-checkbox" type="checkbox" name="interpersonal" value="leadership">Leadership<br>
+  <input class="limited-checkbox" type="checkbox" name="interpersonal" value="empathy">Empathy<br>
+  <input class="limited-checkbox" type="checkbox" name="interpersonal" value="creativity">Creativity<br>
+  <input class="limited-checkbox" type="checkbox" name="interpersonal" value="ps">Problem-solving<br>
+  <input class="limited-checkbox" type="checkbox" name="interpersonal" value="teamwork">Teamwork and collaboration<br>
+  <input class="limited-checkbox" type="checkbox" name="interpersonal" value="time">Time-management<br>
+  <input class="limited-checkbox" type="checkbox" name="interpersonal" value="think">Critical-thinking<br>
+<br><h1>Personal Interests</h1><br>
+Do you have an interest in any of the following sub-areas of AI? Please select at least one of the options listed below. (You may select up to a maximum of three.):<br>
+  <input class="limited-checkbox" type="checkbox" name="ai" value="ml">Machine Learning<br>
+  <input class="limited-checkbox" type="checkbox" name="ai" value="dl">Deep Learning<br>
+  <input class="limited-checkbox" type="checkbox" name="ai" value="nlp">Natural Language Processing<br>
+  <input class="limited-checkbox" type="checkbox" name="ai" value="es">Expert Systems<br>
+  <input class="limited-checkbox" type="checkbox" name="ai" value="robotics">Robotics<br>
+  <input class="limited-checkbox" type="checkbox" name="ai" value="fl">Fuzzy Logic<br>
+  <input class="limited-checkbox" type="checkbox" name="ai" value="NA">None of the above<br>
+Do you have an interest in any of the following sub-areas  of Data Science? Please select at least one of the options listed below. (You may select up to a maximum of three.):<br>
+  <input class="limited-checkbox" type="checkbox" name="data" value="cc">Cloud Computing<br>
+  <input class="limited-checkbox" type="checkbox" name="data" value="dsa">Data and Statistical Analysis<br>
+  <input class="limited-checkbox" type="checkbox" name="data" value="bd">Big Data<br>
+  <input class="limited-checkbox" type="checkbox" name="data" value="scraping">Web/Data Scraping<br>
+  <input class="limited-checkbox" type="checkbox" name="data" value="db">Database Management and Design<br>
+  <input class="limited-checkbox" type="checkbox" name="data" value="dm">Data Mining<br>
+  <input class="limited-checkbox" type="checkbox" name="data" value="dv">Data Visualization<br>
+  <input class="limited-checkbox" type="checkbox" name="data" value="NA">None of the above<br>
+Do you have an interest in any of the following topics or applications? Please select at least one of the options listed below. (You may select up to a maximum of three.):<br>
+  <input class="limited-checkbox" type="checkbox" name="apps" value="automation">Automation<br>
+  <input class="limited-checkbox" type="checkbox" name="apps" value="blockchain">Blockchain Development<br>
+  <input class="limited-checkbox" type="checkbox" name="apps" value="cg">Computer Graphics<br>
+  <input class="limited-checkbox" type="checkbox" name="apps" value="cv">Computer Vision<br>
+  <input class="limited-checkbox" type="checkbox" name="apps" value="sna">Systems and Network Architecture<br>
+  <input class="limited-checkbox" type="checkbox" name="apps" value="web">Web Design<br>
+  <input class="limited-checkbox" type="checkbox" name="apps" value="sa">Sentiment Analysis<br>
+  <input class="limited-checkbox" type="checkbox" name="apps" value="bots">Chatbots and Virtual Assistants<br>
+  <input class="limited-checkbox" type="checkbox" name="apps" value="deep">Generative AI / Deepfakes<br>
+  <input class="limited-checkbox" type="checkbox" name="apps" value="NA">None of the above<br>
 <input type="submit">
 </form>
  
