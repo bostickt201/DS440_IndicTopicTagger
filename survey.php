@@ -21,7 +21,7 @@
 <br><h1>Basic Info and Contact</h1>
 <p><b>Why are we asking for contact information?</b>
 Your contact data is meant to simulate real user data. We will never share or use this data outside of the classroom.</p><br>
-<form action="submit.php" method="post">
+<form action="submit.php" method="get">
 What is your first name?: <input type="text" name="fname"><br>
 What is your last name?: <input type="text" name="lname"><br>
 What is your student email?: <input type="text" name="email"><br>
