@@ -134,7 +134,7 @@ Do you have an interest in any of the following topics or applications? Please s
   <input class="limited-checkbox" type="checkbox" name="apps" value="sa">Sentiment Analysis<br>
   <input class="limited-checkbox" type="checkbox" name="apps" value="bots">Chatbots and Virtual Assistants<br>
   <input class="limited-checkbox" type="checkbox" name="apps" value="deep">Generative AI / Deepfakes<br>
-  <input class="limited-checkbox" type="checkbox" name="apps" value="NA">None of the above<br>
+  <input class="limited-checkbox" type="checkbox" name="apps" value="NA">None of the above<br><br>
 <input type="submit">
 </form>
  
