@@ -60,8 +60,7 @@ What primary operating system do you use?:<br>
   <input type="radio" name="OS" value="mac">MacOS
   <input type="radio" name="OS" value="windows">Windows
   <input type="radio" name="OS" value="linux">Linux
-  <input type="radio" name="OS" value="chrome">ChromeOS
-  <input type="radio" name="OS" value="">Other <input type="text" name="other_os" /><br>
+  <input type="radio" name="OS" value="chrome">ChromeOS<br>
 Which of the following supervised methods are you most familiar with? Please select at least one of the options listed below. (You may select up to a maximum of three.):<br>
   <input class="limited-checkbox" type="checkbox" name="surpervised" value="linear">Linear Regression<br>
   <input class="limited-checkbox" type="checkbox" name="surpervised" value="logistic">Logistic Regression<br>
@@ -88,13 +87,13 @@ Which of the following visualization tools or applications, if any, are you most
   <input type="radio" name="visualize" value="rr">R/R Markdown
   <input type="radio" name="visualize" value="ibm">IBM Watson
   <input type="radio" name="visualize" value="plotly">Plotly
-  <input type="radio" name="visualize" value="">Other <input type="text" name="other_os" /><br>
+  <input type="radio" name="visualize" value="NA">None of the above<br>
 Which of the following cloud services, if any, do you have experience with?:<br>
   <input type="radio" name="visualize" value="azure">MS Azure
   <input type="radio" name="visualize" value="aws">Amazon Web Services (AWS)
   <input type="radio" name="visualize" value="google">Google Cloud Platform
   <input type="radio" name="visualize" value="ocean">Digital Ocean
-  <input type="radio" name="visualize" value="">Other <input type="text" name="other_os" /><br>
+  <input type="radio" name="visualize" value="NA">None of the above<br>
 <br><h1>Interpersonal Skills</h1><br>
 Picture yourself in a group or team-based setting. What "soft" or interpersonal skills would you bring on to your team? Please select at least one of the options listed below. (You may select up to a maximum of three.):<br>
   <input class="limited-checkbox" type="checkbox" name="interpersonal" value="communication">Communication<br>
