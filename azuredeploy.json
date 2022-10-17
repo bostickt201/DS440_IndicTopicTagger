@@ -47,7 +47,7 @@
       },
       "repoUrl": {
         "type": "string",
-        "defaultValue": "https://github.com/benalexkeen/streamlit-azure-app-services.git",
+        "defaultValue": "https://github.com/bostickt201/DS440_IndicTopicTagger.git",
         "metadata": {
           "description": "Git Repo URL"
         }
