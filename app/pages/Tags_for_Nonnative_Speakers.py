@@ -23,25 +23,28 @@ placeholder=None,
 disabled=False,
 label_visibility="visible")
 
-if st.button('Submit'):
-    st.write('Please wait...processing text... finding optimal tags...')
-
-    # Fetch data and feed thru model
-
-    # Output results below
-
 # Top 5 button
-if st.button('Retrieve Top 5 Best Tags'):
-    st.write('Retrieving top 5 best tags...')
+if st.button('Get Top 5 Best Tags'):
+    st.spinner(text="Please wait ... Retrieving Top 5 best tags ...")
 
     # Fetch top 5 best tags
+    try:
+        st.text("Top 5 works fine")
 
+    except ValueError:
+        st.text("Top 5 failed")
     # Output top 5 best tags below
 
 # Top 10 button
-if st.button('Retrieve Top 10 Best Tags'):
-    st.write('Retrieivng top 10 best tags...')
+if st.button('Get Top 10 Best Tags'):
+    st.spinner(text="Please wait ... Retrieving Top 10 best tags ...")
 
     # Fetch top 10 best tags
+    try:
+        st.text("Top 10 works fine")
+
+    except ValueError:
+        st.text("Top 10 failed")
+
 
     # Output top 10 best tags below

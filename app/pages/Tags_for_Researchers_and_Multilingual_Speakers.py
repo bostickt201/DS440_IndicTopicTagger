@@ -23,16 +23,24 @@ disabled=False,
 label_visibility="visible")
 
 if st.button('Submit'):
-    st.write('Please wait...processing text... finding optimal tags...')
+    st.spinner(text="Please wait ... Retrieving tags ...")
 
     # Fetch data and feed thru model
+    try:
+        st.text("Submit works fine")
 
-    # Output results below
+    except ValueError:
+        st.text("Submit failed")
 
-# Start of 'Stats for Nerds' section #################
-st.header("Stats for Nerds", anchor=None)
+    # Output Word Cloud visualization below
 
-# text here
-st.text("Fill in 'Stats for Nerds' section here!!!")
+    # Start of 'Stats for Nerds' section #################
+    st.header("Stats for Nerds", anchor=None)
 
-# End of 'Stats for Nerds' section #################
+    # text here
+    st.text("Fill in 'Stats for Nerds' section here!!!")
+
+    # embed more stats / visualization(s) here...
+
+
+    # End of 'Stats for Nerds' section #################
