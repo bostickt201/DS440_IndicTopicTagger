@@ -9,10 +9,10 @@
             "value": "B1"
         },
         "linuxFxVersion": {
-            "value": "PYTHON|3.7"
+            "value": "PYTHON|3.9"
         },
         "repoUrl": {
-            "value": "https://github.com/bostickt201/DS440_IndicTopicTagger.git"
+            "value": "https://github.com/bostickt201/DS440_IndicTopicTagger"
         },
         "repoBranch": {
             "value": "main"
