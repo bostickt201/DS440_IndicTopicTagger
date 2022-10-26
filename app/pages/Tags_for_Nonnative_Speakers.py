@@ -6,12 +6,14 @@ st.title("Looking for topic tags and nothing more? You've come to the right plac
 # Start of 'Instructions' section #################
 st.header("Instructions", anchor=None)
 
-st.text("Fill in 'Instructions' section here!!!")
+st.text("Copy and paste your text in the space below.")
+st.text("Feel free to use as many or as few characters as you'd like.")
+
 # End of 'Instructions' section #################
 
 # input user text
 st.text_area(
-"Paste your text below:", value="",
+"Happy tagging!\n", value="",
 height=None,
 max_chars=None,
 key=None,
