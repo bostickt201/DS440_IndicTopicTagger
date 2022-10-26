@@ -22,6 +22,10 @@ st.text("\n")
 
 st.text("Good luck tagging!")
 
+st.text("\n")
+st.text("\n")
+
+st.markdown("![Alt Text](https://media.giphy.com/media/w9mHi4xjefrAwpDJAT/giphy.gif)")
 # End of 'Instructions' section #################
 
 
