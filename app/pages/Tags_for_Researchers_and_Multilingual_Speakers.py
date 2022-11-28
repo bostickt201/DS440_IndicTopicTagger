@@ -29,7 +29,9 @@ if st.button('Submit'):
     # Fetch data and feed thru model
     try:
         # do something here with text
-        st.text("Submit works fine")
+        input = text
+        requests.post(url = “http://a13c-34-143-172-49.ngrok.io/predict",
+              data = json.dumps(input))
 
     except ValueError:
         st.text("Submit failed")
