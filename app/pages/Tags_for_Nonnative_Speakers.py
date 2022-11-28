@@ -13,7 +13,7 @@ st.text("Feel free to use as many or as few characters as you'd like.")
 
 # input user text
 st.text_area(
-"Happy tagging!\n", value="",
+"Happy tagging!\n", value="z",
 height=None,
 max_chars=None,
 key=None,
