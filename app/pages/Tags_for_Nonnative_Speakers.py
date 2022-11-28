@@ -35,7 +35,7 @@ if st.button('Get Top 5 Best Tags'):
     try:
         # do something here with text
         input = text
-        res = requests.post(url = “http://a13c-34-143-172-49.ngrok.io/predict",
+        res = requests.post(url = "https://a13c-34-143-172-49.ngrok.io/predict",
               data = json.dumps(input))
 
         # Output top 5 best tags below
@@ -53,7 +53,7 @@ if st.button('Get Top 10 Best Tags'):
     try:
         # do something here with text
         input = text
-        res = requests.post(url = “http://a13c-34-143-172-49.ngrok.io/predict",
+        res = requests.post(url = "https://a13c-34-143-172-49.ngrok.io/predict",
               data = json.dumps(input))
 
         # Output top 10 best tags below
