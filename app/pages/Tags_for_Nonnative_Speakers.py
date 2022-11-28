@@ -12,8 +12,8 @@ st.text("Feel free to use as many or as few characters as you'd like.")
 # End of 'Instructions' section #################
 
 # input user text
-st.text_area(
-"Happy tagging!\n", value="z",
+text = st.text_area(
+"Happy tagging!\n", value="",
 height=None,
 max_chars=None,
 key=None,
@@ -31,7 +31,9 @@ if st.button('Get Top 5 Best Tags'):
 
     # Fetch top 5 best tags
     try:
+        # do something here with text
         st.text("Top 5 works fine")
+
 
     except ValueError:
         st.text("Top 5 failed")
@@ -43,6 +45,7 @@ if st.button('Get Top 10 Best Tags'):
 
     # Fetch top 10 best tags
     try:
+        # do something here with text
         st.text("Top 10 works fine")
 
     except ValueError:

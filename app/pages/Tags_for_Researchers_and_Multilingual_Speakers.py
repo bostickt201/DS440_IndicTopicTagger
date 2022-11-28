@@ -10,7 +10,7 @@ st.text("Feel free to use as many or as few characters as you'd like.")
 # End of 'Instructions' section #################
 
 # input user text
-st.text_area(
+text = st.text_area(
 "Happy tagging!\n", value="",
 height=None,
 max_chars=None,
@@ -28,6 +28,7 @@ if st.button('Submit'):
 
     # Fetch data and feed thru model
     try:
+        # do something here with text
         st.text("Submit works fine")
 
     except ValueError:
