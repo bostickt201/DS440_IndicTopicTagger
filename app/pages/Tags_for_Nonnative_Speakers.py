@@ -1,4 +1,6 @@
 import streamlit as st
+import json
+import requests
 
 st.title("Looking for topic tags and nothing more? You've come to the right place.") # i.e., Nonnative Users
 #st.write("You have entered", st.session_state["my_input"])
@@ -33,13 +35,15 @@ if st.button('Get Top 5 Best Tags'):
     try:
         # do something here with text
         input = text
-        requests.post(url = “http://a13c-34-143-172-49.ngrok.io/predict",
+        res = requests.post(url = “http://a13c-34-143-172-49.ngrok.io/predict",
               data = json.dumps(input))
+
+        # Output top 5 best tags below
+        st.subheader(res.text)
 
     except ValueError:
         st.text("Top 5 failed")
 
-    # Output top 5 best tags below
 
 # Top 10 button
 if st.button('Get Top 10 Best Tags'):
@@ -49,10 +53,11 @@ if st.button('Get Top 10 Best Tags'):
     try:
         # do something here with text
         input = text
-        requests.post(url = “http://a13c-34-143-172-49.ngrok.io/predict",
+        res = requests.post(url = “http://a13c-34-143-172-49.ngrok.io/predict",
               data = json.dumps(input))
+
+        # Output top 10 best tags below
+        st.subheader(res.text)
 
     except ValueError:
         st.text("Top 10 failed")
-
-    # Output top 10 best tags below
