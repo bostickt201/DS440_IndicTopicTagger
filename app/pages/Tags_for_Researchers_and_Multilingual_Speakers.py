@@ -87,10 +87,10 @@ if st.button('Submit'):
         en_25 = preds[2]
         en_25_str = ','.join(str(item) for item in en_25)
 
-        wordcloud = WordCloud().generate(en_25_str)
+        cloud = WordCloud().generate(en_25_str)
 
         fig, ax = plt.subplots(figsize = (12, 8))
-        ax.imshow(wordcloud)
+        ax.imshow(cloud)
         plt.axis("off")
         st.pyplot(fig)
 
@@ -101,10 +101,10 @@ if st.button('Submit'):
         st.text("Top 10 from prediction_en_model_50:")
         st.text(preds[3])
 
-        wordcloud = WordCloud().generate(en_50_str)
+        cloud = WordCloud().generate(en_50_str)
 
         fig, ax = plt.subplots(figsize = (12, 8))
-        ax.imshow(wordcloud)
+        ax.imshow(cloud)
         plt.axis("off")
         st.pyplot(fig)
 
