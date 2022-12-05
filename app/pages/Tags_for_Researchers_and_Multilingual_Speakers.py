@@ -32,8 +32,6 @@ if st.button('Submit'):
     try:
         # do something here with text
         input = text
-        #res = requests.post(url = "https://a13c-34-143-172-49.ngrok.io/predict",
-              #data = json.dumps(input))
 
         # Output Word Cloud visualization below
 
@@ -41,7 +39,6 @@ if st.button('Submit'):
         st.header("Stats for Nerds", anchor=None)
 
         # Output request results below
-        #st.subheader(res.text)
         print(input)
 
 

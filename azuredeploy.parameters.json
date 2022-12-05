@@ -6,10 +6,10 @@
             "value": "Indic Topic Tagger"
         },
         "sku": {
-            "value": "B1"
+            "value": "B2"
         },
         "linuxFxVersion": {
-            "value": "PYTHON|3.9"
+            "value": "PYTHON|3.7"
         },
         "repoUrl": {
             "value": "https://github.com/bostickt201/DS440_IndicTopicTagger"
