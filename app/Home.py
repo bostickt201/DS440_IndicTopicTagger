@@ -1,5 +1,4 @@
 import streamlit as st
-#import WordCloud
 
 st.set_page_config(
 	page_title = "Indic Topic Tagger",
