@@ -3,7 +3,7 @@ import json
 import requests
 
 import streamlit as st
-from wordcloud import WordCloud
+import WordCloud
 import matplotlib.pyplot as plt
 
 from sample_if10 import top_10
