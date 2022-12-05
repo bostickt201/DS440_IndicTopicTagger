@@ -6,13 +6,13 @@
             "value": "Indic Topic Tagger"
         },
         "sku": {
-            "value": "B2"
+            "value": "B1"
         },
         "linuxFxVersion": {
-            "value": "PYTHON|3.7"
+            "value": "PYTHON|3.9"
         },
         "repoUrl": {
-            "value": "https://github.com/bostickt201/DS440_IndicTopicTagger"
+            "value": "https://github.com/DivyaRustagi10/contextualized-topic-models-ssl.git"
         },
         "repoBranch": {
             "value": "main"

@@ -47,7 +47,7 @@
       },
       "repoUrl": {
         "type": "string",
-        "defaultValue": "https://github.com/bostickt201/DS440_IndicTopicTagger",
+        "defaultValue": "https://github.com/DivyaRustagi10/contextualized-topic-models-ssl.git",
         "metadata": {
           "description": "Git Repo URL"
         }
@@ -118,7 +118,7 @@
             "[resourceId('Microsoft.Web/sites', parameters('webAppName'))]"
         ],
         "properties": {
-            "appCommandLine": "python -m streamlit run app/Home.py --server.port 8000 --server.address 0.0.0.0"
+            "appCommandLine": "python -m streamlit run deployment/app/Home.py --server.port 8000 --server.address 0.0.0.0"
         }
     }
     ]
